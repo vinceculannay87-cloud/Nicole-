@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Monthsary ❤️</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="scene">
+    
+    <!-- 💌 ENVELOPE -->
+    <div id="envelope" onclick="openEnvelope()">
+      <div class="front"></div>
+      <div class="flap"></div>
+      <div class="letter-preview">💌 Tap to open</div>
+    </div>
+    
+    <!-- 💌 LETTER -->
+    <div id="letter">
+      <p id="text"></p>
+    </div>
+    
+    <!-- 💍 PROPOSAL -->
+    <div id="proposal">
+      <div id="ring">💍</div>
+      
+      <h2>Will you keep loving me forever?</h2>
+      
+      <button onclick="takeRing()">Take the Ring ❤️</button>
+    </div>
+    
+  </div>
+  
+  <audio id="music" loop>
+    <source src="music/ikaw-at-ako.mp3">
+  </audio>
+  
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
